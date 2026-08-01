@@ -96,5 +96,7 @@ main {
     
 }
 
-
-
+.logo {
+    font-family: 'cedge1';
+    font-size: 4rem;
+}
