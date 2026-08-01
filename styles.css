@@ -99,4 +99,8 @@ main {
 .logo {
     font-family: 'cedge1';
     font-size: 4rem;
+
+    display: grid;
+    grid-template-columns: 2;
+    grid-auto-flow: column;
 }
