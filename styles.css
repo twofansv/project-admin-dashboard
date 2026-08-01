@@ -98,15 +98,27 @@ main {
 
 .logo {
     font-family: 'cedge1';
-    font-size: 4rem;
+  
 
     display: grid;
-    grid-template-columns: 1fr 8fr;
-    grid-auto-flow: column;
+    grid-template-columns: 20% 80%;
+    /* grid-auto-flow: row; */
+    align-content: center;
+    justify-content: center;
+}
+/* 
+@media (min-width: 80%){
+    .logo {grid-auto-flow: row;}
+} */
+
+.logo > img {
+    width: 50px;
+    height: auto;
+    justify-self: right;
 }
 
-.logo > .img {
-    
+.logo > p {
+    font-size: 5rem;
 }
 
 .logo > ul {
