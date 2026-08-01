@@ -104,3 +104,7 @@ main {
     grid-template-columns: 2;
     grid-auto-flow: column;
 }
+
+.logo > .img {
+    grid-column: 2px;
+}
