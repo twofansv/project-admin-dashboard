@@ -101,10 +101,18 @@ main {
   
 
     display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 .logo > img {
     width: 100px;
     height: auto;
     justify-self: right;
+}
+
+.logo > span {
+    font-size: 5rem;
+    align-self: center;
 }
