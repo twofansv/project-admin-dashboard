@@ -29,14 +29,18 @@ img {
 
 body {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
 }
 
 aside {
     grid-row: 1 / 3;
 }
 
-
+main {
+    grid-row: 2 / 3;
+    
+}
 
 
 
