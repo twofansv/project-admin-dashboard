@@ -32,7 +32,9 @@ body {
     grid-template-columns: repeat(2, 1fr);
 }
 
-
+aside {
+    grid-row: 1 / 3;
+}
 
 
 
