@@ -12,6 +12,10 @@ html, body {
     height: 100%;
 }
 
+body {
+    font-family: 'Corp Trial';
+}
+
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
     margin: 0;
     padding: 0;
@@ -29,8 +33,8 @@ img {
 
 @font-face {
     font-family: 'cedge1';
-    src: url('cedge1.woff2') format('woff2'),
-        url('cedge1.woff') format('woff');
+    src: url('fonts/cedge1.woff2') format('woff2'),
+        url('fonts/cedge1.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -38,8 +42,8 @@ img {
 
 @font-face {
     font-family: 'Corp Trial';
-    src: url('CorpTrial-Regular.woff2') format('woff2'),
-        url('CorpTrial-Regular.woff') format('woff');
+    src: url('fonts/CorpTrial-Regular.woff2') format('woff2'),
+        url('fonts/CorpTrial-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -91,9 +95,6 @@ main {
     grid-row: 2 / 3;
     
 }
-
-
-
 
 
 
