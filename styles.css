@@ -121,10 +121,17 @@ main {
 }
 
 aside > ul {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
 }
 
 svg {
     width: 30px;
     height: auto;
+    margin-right: 10px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-items: center;
 }
