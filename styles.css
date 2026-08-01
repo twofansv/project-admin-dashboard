@@ -88,7 +88,8 @@ aside {
 
     display: grid;
     grid-template-columns: 1;
-    grid-template-rows: 100px 1fr;
+    grid-template-rows: 100px 1fr 1fr;
+    gap: 10px;
 }
 
 main {
@@ -104,6 +105,7 @@ main {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
+   
 }
 
 .logo > img {
