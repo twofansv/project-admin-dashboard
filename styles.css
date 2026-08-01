@@ -100,27 +100,11 @@ main {
     font-family: 'cedge1';
   
 
-    display: grid;
-    grid-template-columns: 20% 80%;
-    /* grid-auto-flow: row; */
-    align-content: center;
-    justify-content: center;
+ 
 }
-/* 
-@media (min-width: 80%){
-    .logo {grid-auto-flow: row;}
-} */
 
 .logo > img {
     width: 50px;
     height: auto;
     justify-self: right;
-}
-
-.logo > p {
-    font-size: 5rem;
-}
-
-.logo > ul {
-
 }
