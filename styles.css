@@ -122,3 +122,12 @@ main {
 aside > ul {
     font-size: 1.4rem;
 }
+
+aside > ul::before{
+    
+}
+
+svg {
+    width: 30px;
+    height: auto;
+}
