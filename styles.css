@@ -121,11 +121,11 @@ main {
 }
 
 aside > ul {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
 }
 
 svg {
-    width: 30px;
+    width: 20px;
     height: auto;
     margin-right: 10px;
 }
@@ -134,4 +134,8 @@ li {
     display: flex;
     align-items: center;
     justify-items: center;
+}
+
+span {
+    align-items: center;
 }
