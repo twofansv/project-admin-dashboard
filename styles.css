@@ -88,7 +88,7 @@ aside {
 
     display: grid;
     grid-template-columns: 1;
-    grid-template-rows: 2;
+    grid-template-rows: 100px 1fr;
 }
 
 main {
@@ -101,10 +101,14 @@ main {
     font-size: 4rem;
 
     display: grid;
-    grid-template-columns: 2;
+    grid-template-columns: 1fr 8fr;
     grid-auto-flow: column;
 }
 
 .logo > .img {
-    grid-column: 2px;
+    
+}
+
+.logo > ul {
+
 }
