@@ -154,6 +154,11 @@ span {
     align-items: center;
 }
 
+span:hover, svg {
+    cursor: grab;
+    color: red;
+}
+
 header {
     background-color: white;
 }
