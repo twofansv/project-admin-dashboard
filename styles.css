@@ -1,5 +1,5 @@
 *, *:before, *:after {
-    border: 1px solid rgb(131, 131, 240);
+    /* border: 1px solid rgb(131, 131, 240); */
     margin: 0;
 }
 
@@ -121,10 +121,13 @@ main {
 .logo > span {
     font-size: 5rem;
     align-self: center;
+
+    color: red;
 }
 
 aside > ul {
     font-size: 1.4rem;
+    color: white;
 }
 
 svg {
