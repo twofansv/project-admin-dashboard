@@ -171,7 +171,7 @@ header {
 .notif,
 .greet,
 .head-buttons {
-    
+
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -187,7 +187,8 @@ header {
     font-size: 1.2rem;
     
 
-} .search > svg {
+} .search > svg,
+.notif > svg {
     height: auto;
     width: 40px;
     margin-right: 5px;
