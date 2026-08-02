@@ -1,5 +1,5 @@
 *, *:before, *:after {
-    /* border: 1px solid rgb(131, 131, 240); */
+    border: 1px solid rgb(131, 131, 240);
     margin: 0;
 }
 
@@ -168,11 +168,12 @@ header {
     grid-template-rows: 1fr 1fr;
 } .search {
     display: flex;
+    flex-wrap: wrap;
 
 } .search input[type='search'] {
     -webkit-appearance: none;
     border: none;
-    background-color: rgb(71, 36, 36);
-    border-radius: 10px;
+    background-color: rgb(223, 223, 223);
+    border-radius: 9999px;
 }
 
