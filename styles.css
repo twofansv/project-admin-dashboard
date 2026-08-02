@@ -109,7 +109,8 @@ main {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-   
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 .logo > img {
@@ -130,6 +131,7 @@ aside > ul {
     color: white;
 
     margin-left: 2em;
+    
 }
 
 svg {
@@ -142,8 +144,10 @@ li {
     display: flex;
     align-items: center;
     justify-items: center;
+    margin-bottom: 0.9em;
 }
 
 span {
     align-items: center;
 }
+
