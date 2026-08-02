@@ -167,7 +167,11 @@ header {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 
-} .search {
+} .search,
+.notif,
+.greet,
+.head-buttons {
+    
     display: flex;
     flex-wrap: wrap;
     align-items: center;
