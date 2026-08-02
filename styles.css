@@ -105,33 +105,33 @@ main {
     font-family: 'cedge1';
   
 
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 30% 70%;
     align-content: center;
-    flex-wrap: wrap;
-    margin-top: 50px;
-    margin-bottom: 50px;
-  
+    justify-content: flex-start;
 }
 
 .logo > img {
-    width: 4rem;
+    width: clamp(2.2rem, 4vw, 3.5rem);
     height: auto;
     justify-self: right;
 }
 
 .logo > span {
-    font-size: 5rem;
+     font-size: clamp(2.2rem, 4vw, 3.5rem); 
     align-self: center;
-    /* margin-right: 150px; */
+  
     color: red;
-}
+} 
 
-aside > ul {
+
+
+#navlist1,
+#navlist2 {
     font-size: 1.4rem;
     color: white;
 
-    margin-left: 1em;
+    display: grid;
     
 }
 
@@ -142,13 +142,6 @@ svg {
     margin-right: 30px;
 }
 
-li {
-    display: flex;
-    /* align-items: flex-start;
-    justify-items: flex-start; */
-    margin-bottom: 0.7em;
-    margin-right: 100px;
-}
 
 span {
     align-items: center;
@@ -172,9 +165,8 @@ header {
 .greet,
 .head-buttons {
 
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    display: grid;
+
 
 } .search input[type='search'] {
     -webkit-appearance: none;
