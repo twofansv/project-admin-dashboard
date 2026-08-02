@@ -114,15 +114,15 @@ main {
 }
 
 .logo > img {
-    width: 100px;
+    width: 50px;
     height: auto;
     justify-self: right;
 }
 
 .logo > span {
-    font-size: 5rem;
+    font-size: 3rem;
     align-self: center;
-
+    margin-right: 150px;
     color: red;
 }
 
