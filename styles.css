@@ -164,7 +164,7 @@ header {
     box-shadow: 0 5px #dba101;
 
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
 
 } .search,
@@ -201,4 +201,26 @@ input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration {
   -webkit-appearance: none;
   display: none;
+}
+
+.notif > img {
+    border-radius: 50%;
+    height: auto;
+    width: 60px;
+}
+
+.notif > svg,
+.notif > img {
+    margin-right: 30px;
+}
+
+.notif > span {
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+
+.notif {
+    justify-content: right;
+    margin-right: 20%;
 }
