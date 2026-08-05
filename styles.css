@@ -334,19 +334,20 @@ button:hover {
 
 main {
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr;
 }
 
 .project-cont {
     grid-row: 1 / 3;
+    margin-left: 50px;
 }
 
 .projects {
     display: grid;
     gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    
 }
 
 h1 {
@@ -355,17 +356,22 @@ h1 {
     font-weight: bolder;
     font-size: 1.5rem;
     margin-top: 50px;
-    margin-left: 50px;
+    margin-bottom: 20px;
+    
 }
 
 .cards {
     
-    height: 250px;
-    width: 250px;
+    height: 150px;
+    width: 450px;
     background-color: white;
+    border-radius: 10px;
+    border-left: 10px solid silver;
+
 }
 
-
-.finance-news-cont {
-    grid-column: 2 / 3;
+.main-rightside {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 }
+
