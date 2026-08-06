@@ -423,7 +423,8 @@ h2, p {
 }
 
 
-.announce-section {
+.announce-section,
+.finance-section {
     height: 100%;
     width: 100%;
     
@@ -455,6 +456,19 @@ hr {
     padding: 5% 5%;
 }
 
+.finance-box {
+    /* background-color: #000000;
+    border-radius: 10px; */
 
+    height: 70%;
+    background-color: white;
+    border-radius: 10px;
 
+    display: grid;
+    margin-right: 50px;
+}
+
+.finance-box > img {
+    
+}
 
