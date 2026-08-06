@@ -286,6 +286,7 @@ input[type="search"]::-webkit-search-results-decoration {
     display: grid;
     
     grid-template-rows: 20px 1fr;
+    color: #000000;
     
 }
 
@@ -334,44 +335,125 @@ button:hover {
 
 main {
     display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-rows: 1fr;
-}
-
-.project-cont {
-    grid-row: 1 / 3;
-    margin-left: 50px;
-}
-
-.projects {
-    display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-    
+    grid-template-columns: 2fr 1fr;
 }
 
 h1 {
-    color: white;
+    font-size: 1.4rem;
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
     font-weight: bolder;
-    font-size: 1.5rem;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
+
+.projects-cont,
+.right-side {
+    margin-left: 50px;
+}
+
+
+.projects {
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 1.5rem;
+}
+
+
 
 .cards {
-    
-    height: 150px;
-    width: 450px;
+    display: grid;
     background-color: white;
+    height: 250px;
+    width: 450px;
+    border-left: 10px solid rgb(179, 32, 32);
     border-radius: 10px;
-    border-left: 10px solid silver;
 
+    grid-template-rows: 1fr 1fr 1fr;
+    
 }
 
-.main-rightside {
+.right-side {
     display: grid;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
 }
+
+p {
+    color: rgb(116, 113, 113);
+}
+
+h2 {
+    align-self: end;
+}
+
+h2, p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.cards-icon {
+   display: grid;
+   grid-template-columns: 5fr 1fr 1fr;
+   margin-right: 20px;
+}
+
+.cards-icon {
+    justify-items: end;
+    align-items: center;
+}
+
+.cards:hover {
+    cursor: pointer;
+    border-color: #dba101;
+}
+
+.right-cont {
+    display: grid;
+
+    height: 22em;
+    width: 25em;
+    background-color: white;
+    border-radius: 10px;
+
+    grid-template-columns: 1fr;
+    
+}
+
+
+.announce-section {
+    height: 100%;
+    width: 100%;
+    
+}
+
+.announce-box {
+    height: 80%;
+    background-color: white;
+    border-radius: 10px;
+
+    display: grid;
+    margin-right: 50px;
+    
+}
+
+.announce-item > p {
+    margin-left: 0;
+    
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;  
+    width: 80%;
+    margin: 20px auto;
+}
+
+.announce-box {
+    padding: 10% 10%;
+}
+
+
+
 
