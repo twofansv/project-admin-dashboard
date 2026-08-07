@@ -90,7 +90,7 @@ aside {
 
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 2fr 2fr 3fr;
+    grid-template-rows: 1fr 2fr 2fr 5fr;
     gap: 10px;
 
 }
@@ -147,7 +147,8 @@ li {
     grid-template-columns: 30% 70%;
     align-content: center;
     justify-content: flex-start;
-   
+    
+    margin-bottom: 30px;
 
     
 }
@@ -374,7 +375,7 @@ h1 {
     display: grid;
     background-color: white;
     height: 250px;
-    width: 320px;
+    width: auto;
     border-left: 10px solid rgb(179, 32, 32);
     border-radius: 10px;
 
