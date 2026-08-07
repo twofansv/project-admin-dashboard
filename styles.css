@@ -536,11 +536,27 @@ hr {
 
 .finance-price {
     display: grid;
+
+    grid-row: 2 / 3;
+    grid-column: 1 / 4;
 }
 
 .finance-price > p {
     font-family: Arial, Helvetica, sans-serif;
+    color: green;
+
 }
+
+.finance-news {
+    grid-column: 1 / 4;
+    
+}
+
+.finance-news > p {
+    color: black;
+}
+
+
 
 
 
